@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+margin:0;
+
+background:#07111f;
+
+color:white;
+
+font-family:'Inter',sans-serif;
+
+overflow-x:hidden;
+
+}
+
+::-webkit-scrollbar{
+
+width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#00d9ff;
+
+border-radius:20px;
+
+}
+
+.section{
+
+max-width:1200px;
+
+margin:auto;
+
+padding:100px 30px;
+
+}
+
+/* Resume Modal Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07111F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #06b6d4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22d3ee;
+}
