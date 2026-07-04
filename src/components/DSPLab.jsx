@@ -8,8 +8,8 @@ import DigitalDownConversion from "./dsp/DigitalDownConversion";
 // import FFTAnalyzer from "./dsp/FFTAnalyzer";
 // import FixedPointLab from "./dsp/FixedPointLab";
 // import ComplexIQ from "./dsp/ComplexIQ";
-// import PulseCompression from "./dsp/PulseCompression";
-// import Beamforming from "./dsp/Beamforming";
+import PulseCompression from "./dsp/PulseCompression";
+import Beamforming from "./dsp/Beamforming";
 
 export default function DSPLab() {
 const [activeLab, setActiveLab] = useState("ddc");
@@ -101,19 +101,19 @@ const [activeLab, setActiveLab] = useState("ddc");
 
         {/* Future Laboratories */}
 
-        {/*
-        <FIRDesigner />
+        
+        {/* <FIRDesigner />
 
         <FFTAnalyzer />
 
         <FixedPointLab />
 
-        <ComplexIQ />
+        <ComplexIQ />*/}
 
         <PulseCompression />
 
         <Beamforming />
-        */}
+      
 
       </div>
 
